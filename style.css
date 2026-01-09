@@ -26,12 +26,16 @@
   background-color: rgba(70, 145, 101, 1);
   border: none;
 }
+.button.white {
+  background-color: white;
+  border: none;
+}
 .button.outline {
   background-color: transparent;
   border: 1px solid white;
 }
 
-.button.outline.icon, .button.primary.icon{
+.button.outline.icon, .button.primary.icon, .button.white.icon{
   display: flex;
   align-items: center;
   gap: 10px;
@@ -261,7 +265,23 @@ margin-bottom: 120px;
   padding-bottom: 83px;
 }
 
+
+.social-section{
+  margin-right: 107px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.social-section h5{
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.social-section img{
+  margin-right: 8px;
+  cursor: pointer;
+}
+
 .copy-wright{
   text-align: center;
   margin-top: 30px;
 }
+
