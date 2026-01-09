@@ -31,11 +31,21 @@
   border: 1px solid white;
 }
 
+.button.outline.icon, .button.primary.icon{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .text-primary {
   color: rgba(48, 184, 104, 1);
 }
-.text-gray {
-  color: rgba(255, 255, 255, 1);
+.text-white{
+  color: white;
+}
+
+.text-gray{
+  color: gray;
 }
 
 .text-dark {
@@ -44,6 +54,12 @@
 
 .gap-md {
   gap: 16px;
+}
+.mbm{
+  margin-bottom: 16px;
+}
+.mtm{
+  margin-top: 16px;
 }
 
 .d-flex {
@@ -177,7 +193,7 @@ margin: 16px;
 /* Brain section  */
 
 .brain-section{
-  margin-top: 120px;
+  margin: 120px 0px 120px 0px;
 }
 
 .brains-image img{
@@ -194,4 +210,58 @@ margin: 16px;
   height: 20px;
   width: 20px;
   margin-right: 5px;
+}
+
+.solution{
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.brain-content h2{
+  font-size: 48px;
+  font-weight: 700;
+}
+.checkbox-wrap{
+  margin-top: 40px;
+}
+
+.brain-content{
+  align-self: center;
+}
+
+/* early access  */
+
+.early-access-section{
+  border-radius: 12px;
+background: rgba(247, 246, 242, 1);
+padding: 80px 40px;
+text-align: center;
+margin-bottom: 120px;
+}
+
+.early-access-section h2{
+  font-size: 40px;
+  font-weight: 700;
+}
+.early-access-section button{
+  margin: 24px auto 16px auto;
+}
+
+.footer-section{
+  background: var(--Style, rgba(0, 25, 49, 1));
+  padding: 120px 0px 30px 0px;
+}
+
+.footer-wrap{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(59, 67, 74);
+
+  padding-bottom: 83px;
+}
+
+.copy-wright{
+  text-align: center;
+  margin-top: 30px;
 }
