@@ -68,7 +68,7 @@
 
 .navbar .menu ul li a {
   text-decoration: none;
-  padding: 32px;
+  padding: 16px;
 }
 
 /* Banner  */
@@ -77,16 +77,14 @@
   height: 674px;
   background-repeat: no-repeat;
   background-size: cover;
-  /* width: 1600px; */
 }
 .banner-content {
-  width: 1360px;
-  height: 379px;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   flex-direction: column;
+  padding-top: 115px;  
 }
 
 .early-access button {
