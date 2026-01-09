@@ -38,16 +38,21 @@
   color: rgba(255, 255, 255, 1);
 }
 
-.text-dark{
-    color: #001931;
+.text-dark {
+  color: #001931;
 }
 
-.gap-md{
-    gap: 16px;
+.gap-md {
+  gap: 16px;
 }
 
-.d-flex{
-    display: flex;
+.d-flex {
+  display: flex;
+}
+
+.paragraph {
+  font-size: 16px;
+  font-weight: 400;
 }
 
 /* Header  */
@@ -88,7 +93,7 @@
   justify-content: center;
   text-align: center;
   flex-direction: column;
-  padding-top: 115px;  
+  padding-top: 115px;
 }
 
 .early-access button {
@@ -103,28 +108,90 @@
   font-weight: 84px;
 }
 
-.banner-content p{
-    line-height: 24px;
-    font-size: 18px;
+.banner-content p {
+  line-height: 24px;
+  font-size: 18px;
 }
 
-.hero-buttons{
-    margin-top: 32px;
+.hero-buttons {
+  margin-top: 32px;
 }
 
 /* Notes section  */
 
-.skill-header{
-    text-align: center;
+.skill-header {
+  text-align: center;
 }
 
-.skill-header h2{
-    font-size: 48px;
-    padding-top: 58px;
-    margin-bottom: 16px;
-}
-.paragraph{
-    font-size: 16px;
-    font-weight: 400;
+.skill-header h2 {
+  font-size: 48px;
+  padding-top: 58px;
+  margin-bottom: 16px;
 }
 
+.skill-box {
+  display: flex;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 1);
+  gap: 16px;
+  margin-top: 42px;
+}
+
+.skill-card{
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+  padding: 24px;
+  border-radius: 8px;
+  text-align: center;
+  margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-image{
+  width: 64px;
+  height: 64px;
+  justify-content: center;
+    display: flex;
+    align-items: center;
+  background: rgba(249, 85, 85, 1);
+  border-radius: 50%;
+margin: 16px;
+  /* margin-top: 45px; */
+}
+
+.skill-card img{
+  /* padding: 1.5px 2.5px; */
+  width: 32px;
+  height: 32px;
+}
+
+.skill-card h3{
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+
+/* Brain section  */
+
+.brain-section{
+  margin-top: 120px;
+}
+
+.brains-image img{
+  width: 600px;
+  height: 600px;
+}
+
+.brain-wrap{
+  display: flex;
+  gap: 60px;
+}
+
+.check-circle{
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+}
