@@ -38,6 +38,10 @@
   color: rgba(255, 255, 255, 1);
 }
 
+.text-dark{
+    color: #001931;
+}
+
 .gap-md{
     gap: 16px;
 }
@@ -107,3 +111,20 @@
 .hero-buttons{
     margin-top: 32px;
 }
+
+/* Notes section  */
+
+.skill-header{
+    text-align: center;
+}
+
+.skill-header h2{
+    font-size: 48px;
+    padding-top: 58px;
+    margin-bottom: 16px;
+}
+.paragraph{
+    font-size: 16px;
+    font-weight: 400;
+}
+
